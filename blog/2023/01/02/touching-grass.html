@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Touching grass?!</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+	<link rel="preload" as="font" href="/assets/fonts/Chivo_Mono/ChivoMono-VariableFont_wght.woff2" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" as="font" href="/assets/fonts/Chivo_Mono/ChivoMono-VariableFont_wght.woff" type="font/woff" crossorigin="anonymous">
+	<link rel="preload" as="font" href="/assets/fonts/Titillium_Web/TitilliumWeb-VF.woff2" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" as="font" href="/assets/fonts/Titillium_Web/TitilliumWeb-VF.woff" type="font/woff" crossorigin="anonymous">
+</head>
+<body><header><script>
+    /* Set the width of the side navigation to 250px */
+    function openNav() {
+        document.getElementById("nav").style.width = "200px";
+        document.getElementById("nav__openbtn").style.right = "-100px";
+    }
+
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+        document.getElementById("nav").style.width = "0";
+        document.getElementById("nav__openbtn").style.right = "7px";
+    }
+</script>
+<nav id="nav"> <!-- this has the ID nav because I do not think there is another way to get the JavaScript working. This is because there is no function to grab a tag, and apply a style to it, in the same way that getElementById() does. Otherwise, the ID does literally nothing, as all the formatting is applied to the nav tag itself -->
+    <a href="javascript:void(0)" id="nav__closebtn" onclick="closeNav()"><img src="/assets/images/cross.png"></a><a class="nav__links" href="/">
+                <div style="width: 24px;"> <!-- even spacing --></div>Home<div style="width: 24px;"> <!-- even spacing --> </div>
+            </a><a class="nav__links" href="/about.html">
+                <div style="width: 24px;"> <!-- even spacing --><img src="/assets/images/about-icon.png" class="nav__links__icon"></div>About<div style="width: 24px;"> <!-- even spacing --> </div>
+            </a><a class="nav__links" href="/blog.html">
+                <div style="width: 24px;"> <!-- even spacing --><img src="/assets/images/blog-icon.png" class="nav__links__icon"></div>Blog<div style="width: 24px;"> <!-- even spacing --> </div>
+            </a></nav>
+<span onclick="openNav()" id="nav__openbtn">Navigation</span>
+<div id="header__content"> 
+        <h1 class="page-title">Blog</h1>
+        <a class="b2b-container" href="/blog.html">
+            <small>
+                Back to Blog
+            </small>
+        </a>
+    </div>
+</header>
+<main>
+            <h2>Touching grass?!</h2>
+            <h4></h4>
+            <p>02 Jan 2023</p>
+            <article>
+                <p>You guys wouldn’t believe it, but I actually touched grass today!
+<em>Yes, I actually published this post in April 2023, but we don’t talk about that.</em></p>
+
+<p><img src="/assets/images/gallery/waiheke/20230102_105420.jpg" alt="Beach at Waiheke Island" /></p>
+
+<p>I just went to Waiheke Island, in Auckland, and took some pictures. Here are the pictures.</p>
+
+<p><em>Also I made this grid thing</em><!-- credit to Tim Van Damme at css-tricks.com -->
+<!-- https://css-tricks.com/adaptive-photo-layout-with-flexbox --></p>
+<div class="image-gallery">
+    <ul><li>
+            <img src="/assets/images/gallery/waiheke/20230102_104210.jpg" />
+        </li><li>
+            <img src="/assets/images/gallery/waiheke/20230102_104215.jpg" />
+        </li><li>
+            <img src="/assets/images/gallery/waiheke/20230102_104228.jpg" />
+        </li><li>
+            <img src="/assets/images/gallery/waiheke/20230102_104240.jpg" />
+        </li><li>
+            <img src="/assets/images/gallery/waiheke/20230102_105058.jpg" />
+        </li><li>
+            <img src="/assets/images/gallery/waiheke/20230102_105107.jpg" />
+        </li><li>
+            <img src="/assets/images/gallery/waiheke/20230102_105119.jpg" />
+        </li><li>
+            <img src="/assets/images/gallery/waiheke/20230102_105331.jpg" />
+        </li><li>
+            <img src="/assets/images/gallery/waiheke/20230102_105902.jpg" />
+        </li><li>
+            <img src="/assets/images/gallery/waiheke/20230102_110738.jpg" />
+        </li><li>
+            <img src="/assets/images/gallery/waiheke/20230102_110855.jpg" />
+        </li><li>
+            <img src="/assets/images/gallery/waiheke/20230102_111440.jpg" />
+        </li><li>
+            <img src="/assets/images/gallery/waiheke/20230102_111443.jpg" />
+        </li><li>
+            <img src="/assets/images/gallery/waiheke/20230102_113631.jpg" />
+        </li><li>
+            <img src="/assets/images/gallery/waiheke/20230102_122146.jpg" />
+        </li><li>
+            <img src="/assets/images/gallery/waiheke/20230102_131056.jpg" />
+        </li><li>
+            <img src="/assets/images/gallery/waiheke/20230102_131337.jpg" />
+        </li><li>
+            <img src="/assets/images/gallery/waiheke/20230102_131428.jpg" />
+        </li><li>
+            <img src="/assets/images/gallery/waiheke/20230102_131449.jpg" />
+        </li><li>
+            <img src="/assets/images/gallery/waiheke/20230102_134542.jpg" />
+        </li><li>
+            <img src="/assets/images/gallery/waiheke/20230102_140004.jpg" />
+        </li><li>
+            <img src="/assets/images/gallery/waiheke/20230102_163305.jpg" />
+        </li></ul>
+</div>
+
+            </article>
+        </main><footer><div id="footer__links"><a href="/">
+                    <div>Home</div>
+                </a><a href="/about.html">
+                    <div>About</div>
+                </a><a href="/blog.html">
+                    <div>Blog</div>
+                </a></div>
+        <div id="footer__watermark">
+            This website is using Dusk, a theme built with ❤️ for GitHub pages, by Parmjot Singh.
+        </div></footer>
+</body>
+</html>

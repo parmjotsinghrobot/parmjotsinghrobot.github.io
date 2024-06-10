@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://parmjot-singh.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://parmjot-singh.github.io/" rel="alternate" type="text/html" /><updated>2024-06-10T09:57:29+00:00</updated><id>https://parmjot-singh.github.io/feed.xml</id><title type="html">Parmjot’s stuff</title><subtitle>A website full of all my (Parmjot) stuff that I make, and a bunch of stuff in my life, if I&apos;m bothered to post it.</subtitle><entry><title type="html">Touching grass?!</title><link href="https://parmjot-singh.github.io/blog/2023/01/02/touching-grass.html" rel="alternate" type="text/html" title="Touching grass?!" /><published>2023-01-02T00:00:00+00:00</published><updated>2023-01-02T00:00:00+00:00</updated><id>https://parmjot-singh.github.io/blog/2023/01/02/touching-grass</id><content type="html" xml:base="https://parmjot-singh.github.io/blog/2023/01/02/touching-grass.html">&lt;p&gt;You guys wouldn’t believe it, but I actually touched grass today!
+&lt;em&gt;Yes, I actually published this post in April 2023, but we don’t talk about that.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/gallery/waiheke/20230102_105420.jpg&quot; alt=&quot;Beach at Waiheke Island&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I just went to Waiheke Island, in Auckland, and took some pictures. Here are the pictures.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Also I made this grid thing&lt;/em&gt;&lt;!-- credit to Tim Van Damme at css-tricks.com --&gt;
+&lt;!-- https://css-tricks.com/adaptive-photo-layout-with-flexbox --&gt;&lt;/p&gt;
+&lt;div class=&quot;image-gallery&quot;&gt;
+    &lt;ul&gt;&lt;li&gt;
+            &lt;img src=&quot;/assets/images/gallery/waiheke/20230102_104210.jpg&quot; /&gt;
+        &lt;/li&gt;&lt;li&gt;
+            &lt;img src=&quot;/assets/images/gallery/waiheke/20230102_104215.jpg&quot; /&gt;
+        &lt;/li&gt;&lt;li&gt;
+            &lt;img src=&quot;/assets/images/gallery/waiheke/20230102_104228.jpg&quot; /&gt;
+        &lt;/li&gt;&lt;li&gt;
+            &lt;img src=&quot;/assets/images/gallery/waiheke/20230102_104240.jpg&quot; /&gt;
+        &lt;/li&gt;&lt;li&gt;
+            &lt;img src=&quot;/assets/images/gallery/waiheke/20230102_105058.jpg&quot; /&gt;
+        &lt;/li&gt;&lt;li&gt;
+            &lt;img src=&quot;/assets/images/gallery/waiheke/20230102_105107.jpg&quot; /&gt;
+        &lt;/li&gt;&lt;li&gt;
+            &lt;img src=&quot;/assets/images/gallery/waiheke/20230102_105119.jpg&quot; /&gt;
+        &lt;/li&gt;&lt;li&gt;
+            &lt;img src=&quot;/assets/images/gallery/waiheke/20230102_105331.jpg&quot; /&gt;
+        &lt;/li&gt;&lt;li&gt;
+            &lt;img src=&quot;/assets/images/gallery/waiheke/20230102_105902.jpg&quot; /&gt;
+        &lt;/li&gt;&lt;li&gt;
+            &lt;img src=&quot;/assets/images/gallery/waiheke/20230102_110738.jpg&quot; /&gt;
+        &lt;/li&gt;&lt;li&gt;
+            &lt;img src=&quot;/assets/images/gallery/waiheke/20230102_110855.jpg&quot; /&gt;
+        &lt;/li&gt;&lt;li&gt;
+            &lt;img src=&quot;/assets/images/gallery/waiheke/20230102_111440.jpg&quot; /&gt;
+        &lt;/li&gt;&lt;li&gt;
+            &lt;img src=&quot;/assets/images/gallery/waiheke/20230102_111443.jpg&quot; /&gt;
+        &lt;/li&gt;&lt;li&gt;
+            &lt;img src=&quot;/assets/images/gallery/waiheke/20230102_113631.jpg&quot; /&gt;
+        &lt;/li&gt;&lt;li&gt;
+            &lt;img src=&quot;/assets/images/gallery/waiheke/20230102_122146.jpg&quot; /&gt;
+        &lt;/li&gt;&lt;li&gt;
+            &lt;img src=&quot;/assets/images/gallery/waiheke/20230102_131056.jpg&quot; /&gt;
+        &lt;/li&gt;&lt;li&gt;
+            &lt;img src=&quot;/assets/images/gallery/waiheke/20230102_131337.jpg&quot; /&gt;
+        &lt;/li&gt;&lt;li&gt;
+            &lt;img src=&quot;/assets/images/gallery/waiheke/20230102_131428.jpg&quot; /&gt;
+        &lt;/li&gt;&lt;li&gt;
+            &lt;img src=&quot;/assets/images/gallery/waiheke/20230102_131449.jpg&quot; /&gt;
+        &lt;/li&gt;&lt;li&gt;
+            &lt;img src=&quot;/assets/images/gallery/waiheke/20230102_134542.jpg&quot; /&gt;
+        &lt;/li&gt;&lt;li&gt;
+            &lt;img src=&quot;/assets/images/gallery/waiheke/20230102_140004.jpg&quot; /&gt;
+        &lt;/li&gt;&lt;li&gt;
+            &lt;img src=&quot;/assets/images/gallery/waiheke/20230102_163305.jpg&quot; /&gt;
+        &lt;/li&gt;&lt;/ul&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="blog" /><summary type="html">You guys wouldn’t believe it, but I actually touched grass today! Yes, I actually published this post in April 2023, but we don’t talk about that.</summary></entry><entry><title type="html">Hello World!</title><link href="https://parmjot-singh.github.io/blog/2022/11/26/hello-world.html" rel="alternate" type="text/html" title="Hello World!" /><published>2022-11-26T06:18:10+00:00</published><updated>2022-11-26T06:18:10+00:00</updated><id>https://parmjot-singh.github.io/blog/2022/11/26/hello-world</id><content type="html" xml:base="https://parmjot-singh.github.io/blog/2022/11/26/hello-world.html">&lt;p&gt;This is my blog, you’ll (probably) find a bunch of stuff here about my life and whatever else I choose to post.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you don’t see anything else here, you’re probably too early, or I’m not bothered to actually use this feature.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/parmjot-pfp-square.jpg&quot; alt=&quot;a picture of the author, Parmjot&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="blog" /><summary type="html">This is my blog, you’ll (probably) find a bunch of stuff here about my life and whatever else I choose to post.</summary></entry></feed>

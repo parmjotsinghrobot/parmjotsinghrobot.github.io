@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+	<link rel="preload" as="font" href="/assets/fonts/Chivo_Mono/ChivoMono-VariableFont_wght.woff2" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" as="font" href="/assets/fonts/Chivo_Mono/ChivoMono-VariableFont_wght.woff" type="font/woff" crossorigin="anonymous">
+	<link rel="preload" as="font" href="/assets/fonts/Titillium_Web/TitilliumWeb-VF.woff2" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" as="font" href="/assets/fonts/Titillium_Web/TitilliumWeb-VF.woff" type="font/woff" crossorigin="anonymous">
+</head>
+<body><header><script>
+    /* Set the width of the side navigation to 250px */
+    function openNav() {
+        document.getElementById("nav").style.width = "200px";
+        document.getElementById("nav__openbtn").style.right = "-100px";
+    }
+
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+        document.getElementById("nav").style.width = "0";
+        document.getElementById("nav__openbtn").style.right = "7px";
+    }
+</script>
+<nav id="nav"> <!-- this has the ID nav because I do not think there is another way to get the JavaScript working. This is because there is no function to grab a tag, and apply a style to it, in the same way that getElementById() does. Otherwise, the ID does literally nothing, as all the formatting is applied to the nav tag itself -->
+    <a href="javascript:void(0)" id="nav__closebtn" onclick="closeNav()"><img src="/assets/images/cross.png"></a><a class="nav__links" href="/">
+                <div style="width: 24px;"> <!-- even spacing --></div>Home<div style="width: 24px;"> <!-- even spacing --> </div>
+            </a><a class="nav__links" href="/about.html">
+                <div style="width: 24px;"> <!-- even spacing --><img src="/assets/images/about-icon.png" class="nav__links__icon"></div>About<div style="width: 24px;"> <!-- even spacing --> </div>
+            </a><a class="nav__links" href="/blog.html">
+                <div style="width: 24px;"> <!-- even spacing --><img src="/assets/images/blog-icon.png" class="nav__links__icon"></div>Blog<div style="width: 24px;"> <!-- even spacing --> </div>
+            </a></nav>
+<span onclick="openNav()" id="nav__openbtn">Navigation</span>
+<div id="header__content"> 
+        <h1 class="page-title">Blog</h1>
+        <h2 class="page-summary"></h2>
+    </div>
+</header>
+<main>
+            <h2 id="here-is-where-i-post-s-t-u-f-f">Here is where I post s t u f f</h2>
+
+            <hr>
+            <h2>Latest Posts</h2>
+            <ul><li>
+                        <h3><a href="/blog/2023/01/02/touching-grass.html">Touching grass?!</a></h3><p>You guys wouldn’t believe it, but I actually touched grass today!
+<em>Yes, I actually published this post in April 2023, but we don’t talk about that.</em></p>
+
+
+                    </li><li>
+                        <h3><a href="/blog/2022/11/26/hello-world.html">Hello World!</a></h3><p>This is my blog, you’ll (probably) find a bunch of stuff here about my life and whatever else I choose to post.</p>
+
+
+                    </li></ul>
+        </main><footer><div id="footer__links"><a href="/">
+                    <div>Home</div>
+                </a><a href="/about.html">
+                    <div>About</div>
+                </a><a href="/blog.html">
+                    <div>Blog</div>
+                </a></div>
+        <div id="footer__watermark">
+            This website is using Dusk, a theme built with ❤️ for GitHub pages, by Parmjot Singh.
+        </div></footer>
+</body>
+</html>
